@@ -5,7 +5,7 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorbackground"
+    android:background="@mipmap/bg1"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -18,7 +18,8 @@
         android:background="@color/colorPrimary"
         android:gravity="center"
         android:text="@string/title"
-        android:textSize="40sp" />
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp" />
 
     <Button
         android:id="@+id/button"
@@ -27,5 +28,6 @@
         android:layout_marginTop="@dimen/buttondis"
         android:background="@color/colorAccent"
         android:text="@string/button"
-        android:textSize="35sp" />
+        android:textColor="@color/colorbackground"
+        android:textSize="50sp" />
 </LinearLayout>
