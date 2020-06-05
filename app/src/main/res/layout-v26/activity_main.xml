@@ -5,38 +5,31 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/showText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
 
     <EditText
-        android:id="@+id/input"
+        android:id="@+id/inpText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
         android:ems="10"
-        android:textSize="25sp"
-        android:inputType="numberDecimal"
-        android:textStyle="bold"
-        android:hint="@string/value_hint"
-        android:autofillHints="" />
+        android:inputType="textPersonName"
+        android:layout_marginBottom="30dp" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginBottom="10dp"
-        android:textSize="20sp"
-        android:gravity="center"
-        android:text="@string/c2f" />
-
-    <TextView
-        android:id="@+id/txtout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:textSize="30sp"
-        android:text="@string/txtout" />
+        android:text="@string/btn_label" />
+   
 </LinearLayout>
